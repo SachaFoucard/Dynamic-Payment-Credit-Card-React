@@ -32,9 +32,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background: #ddeefc;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
+  background-color: 'white';
+  width: 100%;
+
 }
 
 h1 {
@@ -89,6 +91,7 @@ button:focus-visible {
 .grid {
   display: grid;
   grid-template-columns: auto;
+  width: 100%;
 }
 
 .grfrtext {
@@ -127,7 +130,7 @@ label {
 section {
   background-color: #fff;
   border-radius: 20px;
-  width: 550px;
+  max-width: 550px;
   height: 610px;
   padding-top: 160px;
 }
@@ -200,7 +203,6 @@ html {
   height: 100%;
   width: 100%;
 }
-
 body {
   display: flex;
   justify-content: center;
@@ -208,8 +210,9 @@ body {
   display: -webkit-flex;
   -webkit-align-items: center;
   -webkit-justify-content: center;
-  background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+ background-color: 'white';
   flex-direction: column;
+  width: 100%;
   -webkit-flex-direction: column;
 }
 
@@ -305,4 +308,7 @@ body {
   color: #fff;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+@media screen and (max-width:590px){
+
 }
